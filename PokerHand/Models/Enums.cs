@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace PokerHand.Models
+﻿namespace PokerHand.Models
 {
     public class Enums
     {
@@ -30,6 +25,20 @@ namespace PokerHand.Models
             Jack,
             Queen,
             King
+        }
+
+        public enum HandType
+        {
+            HighCard,
+            OnePair,
+            TwoPair,
+            ThreeOfAKind,
+            Straight,
+            Flush,
+            FullHouse,
+            FourOfAKind,
+            StraightFlush,
+            RoyalFlush
         }
     }
 }
