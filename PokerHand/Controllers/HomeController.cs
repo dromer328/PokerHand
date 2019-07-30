@@ -17,14 +17,14 @@ namespace PokerHand.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Poker Hand Code Exercise.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Dave Romer contact page.";
 
             return View();
         }
